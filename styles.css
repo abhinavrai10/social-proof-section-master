@@ -3,13 +3,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "League Spartan";
 }
 
-html {
+html,body {
     box-sizing: border-box;
     font-size: 93.75%;
     /* 1rem = 15px, 15px/16px = 93.75% */
+    height: 100%;
+    width: 100%;
+    font-family: "League Spartan", "sans-serif";
 }
 
 :root {
@@ -31,7 +33,7 @@ html {
 .img-wrapper {
     width: 99vw;
     height: 98vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .top-img {
